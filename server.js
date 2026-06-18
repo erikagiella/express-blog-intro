@@ -8,3 +8,6 @@ app.listen(port, () => {
 })
 
 //Define your routes
+app.get('/', (req, res) => {
+    res.send("Server del mio blog");
+})
