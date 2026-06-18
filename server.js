@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+//Static asset
+app.use(express.static('public'));
 
 //Start the server listner
 app.listen(port, () => {
